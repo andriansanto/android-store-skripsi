@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="700dp"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/paymentView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Payment Success"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helloUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/rubik_medium"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/paymentView"
+        />
+
+    <TextView
+        android:id="@+id/thanksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helloUserText"
+        android:layout_centerHorizontal="true"
+        android:text="You have been charged $15 for the item you ordered, thank you for shopping in our store."
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textRemainingBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Remaining Balance: "
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/thanksText"
+        />
+
+    <TextView
+        android:id="@+id/userBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textRemainingBalance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text=""
+        android:textColor="@color/pink"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/profile_ask"
+        android:layout_below="@+id/userBalance"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andrian Santo"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/img"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="22dp"
+        android:gravity="center"
+        android:text="This is my demo app for the totp implementation on my final project thesis. Thankyou for helping me!"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="BACK TO HOME" />
+
+
+</RelativeLayout>

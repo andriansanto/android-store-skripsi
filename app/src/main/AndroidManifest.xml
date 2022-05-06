@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skripsi.android.andrian">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shopping"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/shopping"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lemon">
+        <activity android:name="skripsi.android.andrian.introductionActivity"
+                   android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name="skripsi.android.andrian.Confirmation"
+            android:exported="true" />
+        <activity android:name="skripsi.android.andrian.Productdetails3"
+            android:exported="true"/>
+        <activity android:name="skripsi.android.andrian.productdetails4"
+            android:exported="true"/>
+        <activity android:name="skripsi.android.andrian.productdetails5"
+            android:exported="true" />
+        <activity android:name="skripsi.android.andrian.productdetails6"
+            android:exported="true"/>
+        <activity android:name="skripsi.android.andrian.Searchpage"
+            android:exported="true"/>
+        <activity android:name="skripsi.android.andrian.totp_confirm"
+            android:theme="@style/DialogTheme"/>
+        <activity
+            android:name="skripsi.android.andrian.Productdetails"
+            android:exported="true"/>
+
+        <activity android:name="skripsi.android.andrian.Formulaire"
+            android:exported="true"/>
+
+        <activity
+            android:name="skripsi.android.andrian.MainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name="skripsi.android.andrian.secretPassword"
+            android:exported="true"/>
+
+        <activity
+            android:name="skripsi.android.andrian.PopUp_Creator"
+            android:exported="true"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

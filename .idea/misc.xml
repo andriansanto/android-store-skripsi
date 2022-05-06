@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_introduction.xml" value="0.22" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_product_details.xml" value="0.18" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/cart.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/category_row_item.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/confirmation.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/final_profile.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/formulaire.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/login_tab_fragement.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/panier.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/popup.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/prod3.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/prod4.xml" value="0.22" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/prod5.xml" value="0.5" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/prod6.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/products_row_item.xml" value="0.22" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/search.xml" value="0.25" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/secret_password.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/signup_tab_fragement.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/totp_confirm.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/menu/menu2.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/menu/mon_menu.xml" value="0.33" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.103" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.103" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/backgroundcercle.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/bottom_background.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/cart_button_bg.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/detail_page_cart_button_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/ic_cat_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/ic_menu.xml" value="0.16111111111111112" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/ic_search.xml" value="0.2703125" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/panier.xml" value="0.25625" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/drawable/vie_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_introduction.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/activity_product_details.xml" value="0.264" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/btn1.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/cart.xml" value="0.2" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/category_row_item.xml" value="0.2536231884057971" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/confirmation.xml" value="0.264" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/formulaire.xml" value="0.2" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/formulaire_main.xml" value="0.264" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/login_tab_fragement.xml" value="0.2056159420289855" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/panier.xml" value="0.1" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/popup.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/prod2.xml" value="0.176" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/prod3.xml" value="0.2" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/prod4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/prod5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/prod6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/product_row_item.xml" value="0.4" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/products_row_item.xml" value="0.4" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/search.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/layout/signup_tab_fragement.xml" value="0.2" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/menu/menu2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/menu/mon_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ayahp/AndroidStudioProjects/Lemon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

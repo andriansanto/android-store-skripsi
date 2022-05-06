@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Store</string>
+    <string name="let_s_find_your_favourite_body_care_product">Let\'s Find your favourite body care product</string>
+    <string name="skin">Skin</string>
+    <string name="hello">Hello!</string>
+    <string name="cart">Add to your cart</string>
+    <string name="body">Body</string>
+    <string name="hair">Hair</string>
+    <string name="face">Face</string>
+    <string name="todo">TODO</string>
+    <string name="store">Store</string>
+</resources>
