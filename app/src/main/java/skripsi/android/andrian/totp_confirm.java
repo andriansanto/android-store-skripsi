@@ -104,6 +104,7 @@ public class totp_confirm extends AppCompatActivity {
                 if(TimerWatch != null){
                     TimerWatch.cancel();
                 }
+                not_get.setVisibility(View.GONE);
                 fetchData();
             }// on click
         });

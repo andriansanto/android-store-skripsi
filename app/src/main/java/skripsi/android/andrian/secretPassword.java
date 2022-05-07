@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,12 +59,25 @@ public class secretPassword extends AppCompatActivity {
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(i);
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), secretConfirm.class);
+                startActivityForResult(i,1);
             }
         });//button
 
-    }
+    }//oncreate
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if (resultCode == RESULT_OK) {
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
+            } else {
+                Toast.makeText(this, "Please remember your Secret ID!", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }//onactivityresult
 
 }
