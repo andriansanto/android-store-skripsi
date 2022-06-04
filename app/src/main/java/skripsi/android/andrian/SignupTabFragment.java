@@ -118,12 +118,12 @@ float v = 0;
                 }//pass
                 if(confirmInput.isEmpty()){
                     Toast.makeText(getContext(),"password confirmation is required!",Toast.LENGTH_SHORT).show();
-                    if(confirm.equals(pass)){
-                        Toast.makeText(getContext(),"password do not match!",Toast.LENGTH_SHORT).show();
-                        return false;
-                    }
                     return false;
                 }//confirm
+                if(!passInput.equals(confirmInput)) {
+                    Toast.makeText(getContext(), "password do not match!", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
                 else{
                     RegisterUser();
                 }

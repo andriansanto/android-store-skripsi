@@ -5,7 +5,7 @@
       <map>
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_introduction.xml" value="0.22" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_product_details.xml" value="0.18" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/activity_product_details.xml" value="0.2" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/cart.xml" value="0.25" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/category_row_item.xml" value="0.33" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/confirmation.xml" value="0.25" />
@@ -20,7 +20,7 @@
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/prod6.xml" value="0.33" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/products_row_item.xml" value="0.22" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/search.xml" value="0.25" />
-        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/secret_confirm_note.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/secret_confirm_note.xml" value="0.33" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/secret_password.xml" value="0.33" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/signup_tab_fragement.xml" value="0.33" />
         <entry key="..\:/Matkul/SKRIPSI/mini-Projet-android/app/src/main/res/layout/totp_confirm.xml" value="0.33" />

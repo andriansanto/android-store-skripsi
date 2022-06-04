@@ -146,7 +146,6 @@ public class totp_confirm extends AppCompatActivity {
 //                        Toast.makeText(MainActivity.this,"Disini data: " + document.getData().get("balance"),Toast.LENGTH_SHORT).show();
                                     int getBalance = document.getLong("balance").intValue();
                                     int updatedBalance = getBalance - 15;
-
                                     db.collection("user-data")
                                             .document(uid)
                                             .update("balance", updatedBalance)
@@ -166,7 +165,6 @@ public class totp_confirm extends AppCompatActivity {
                                                     Log.w("Else", "Error writing document:", e);
                                                 }
                                             });//save otp to db
-
                                 } else {
                                     Log.d("get-data", "No such document");
                                 }
@@ -188,16 +186,13 @@ public class totp_confirm extends AppCompatActivity {
 
     private static int getCurrentTime(){
         Calendar cal = Calendar.getInstance();
-
         // get day, minute, second and convert into integer
         int curTime = cal.get(Calendar.HOUR_OF_DAY) * 60 * 60 + cal.get(Calendar.MINUTE) * 60 + cal.get(Calendar.SECOND);
-
         return curTime;
     }//get current time
 
     private void startTimer(){
         TimerWatch = new CountDownTimer(90000, 1000){
-
             @Override
             public void onTick(long l){
                 viewTimer1.setText(""+l/1000+"s");
@@ -207,15 +202,11 @@ public class totp_confirm extends AppCompatActivity {
             @Override
             public void onFinish(){
                 //finish hide text view
-//                viewTimer1.setVisibility(View.GONE);
                 viewTimer1.setText("Code Expired");
                 textViewNote.setText("code expired, please send new otp code");
                 not_get.setVisibility(View.VISIBLE);
-//                Toast.makeText(totp_confirm.this,"code expired, please send new otp code!",Toast.LENGTH_SHORT).show();
             }//onfinish
-
         }.start();//coundowntimer
-
     }//start timer
 
 
@@ -224,11 +215,8 @@ public class totp_confirm extends AppCompatActivity {
                 .baseUrl(Api.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-
         Api api = retrofit.create(Api.class);
-
         Call<List<ObjectResponse>> call = api.getObjectResponse();
-
         call.enqueue(new Callback<List<ObjectResponse>>() {
             @Override
             public void onResponse(Call<List<ObjectResponse>> call, Response<List<ObjectResponse>> response) {
@@ -252,7 +240,6 @@ public class totp_confirm extends AppCompatActivity {
             }
         });
     }// fetch data
-
 
     private void SaveOTP() {
 //        Toast.makeText(totp_confirm.this,"Secret ID:" + secretID,Toast.LENGTH_SHORT).show();
